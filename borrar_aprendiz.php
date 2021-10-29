@@ -42,8 +42,8 @@
                     if($resultado->num_rows>0)
                     { 
                     $fila = $resultado->fetch_object();
-                    echo $fila->Apre_id." ".$fila->Apre_Tipoid." ".$fila->Apre_Numid." " or
-                    $fila->Apre_Nombres." ". $fila->Apre_Apellidos." ".$fila->Apre_Direccion." ".$fila->Apre_Telefono." ".$fila->Apre_Ficha."<br>";
+                    echo $fila->apre_id." ".$fila->apre_tipoid." ".$fila->apre_numid." " or
+                    $fila->apre_nombres." ". $fila->apre_apellidos." ".$fila->apre_direccion." ".$fila->apre_telefono." ".$fila->apre_ficha."<br>";
                     
                     if($resultado2)
                     echo "<br> Datos borrados exitosamente";
